@@ -35,3 +35,12 @@ function greet() {}
 
 // String → represents text (sequence of characters inside quotes)
 let str1 = "Hello";
+
+let bool = true;  // boolean datatype is used to store the boolean values
+
+let embed = `1+2 = ${1+2}`; //The ${1+2} part calculates the value dynamically and inserts it into the string.
+console.log(embed)
+
+let name = "Muthu";
+let aa = `My name is :${name}`;
+console.log(aa);
