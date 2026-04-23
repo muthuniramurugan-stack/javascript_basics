@@ -8,7 +8,7 @@ console.log(a - b); // 10
 console.log(a * b); // 50
 console.log(a / b); // 2  gives quotient
 console.log(a % b); // 0  gives remainder
-console.log(a > b); // true
+console.log(a > b); // true  comparison operator
 console.log(a == "10");  // true checks only value not the type
 console.log(a === "10"); // false  checks the value + type
 a++; // increment operator increments 1 and a becomes 10
