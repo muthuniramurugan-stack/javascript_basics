@@ -33,3 +33,12 @@ console.log(veges[1]);
 // we can also able to add function inside the array
 let all = ['hello', 'hi', 10,20,function add(a,b){ return a+b},'bat','ball'];
 console.log(all[4] (1,3));
+
+// to add values in an array method 01
+let ar = [10,20];
+ar[2]=30;
+
+// method 02
+ar.push(40);  // adds value in the last
+ar.unshift(27); // adds value in first
+
