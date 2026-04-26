@@ -26,6 +26,8 @@ for(key of map.keys()){
 for(key of map.values()){
     console.log(key);
 }
+//map.has() is used to check whether a key exists in a Map.
+console,log(map.has(1));
 
 /*| Feature   | Object                             | Map                                   |
 | --------- | ---------------------------------- | ------------------------------------- |
