@@ -42,3 +42,13 @@ ar[2]=30;
 ar.push(40);  // adds value in the last
 ar.unshift(27); // adds value in first
 
+// to remove element from last
+console.log(ar.pop());
+
+// to remove element from first
+console.log(ar.shift());
+
+// to take all values from an array
+for(a of ar){
+    console.log(a); // prints all the values from the array
+}
