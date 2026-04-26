@@ -29,3 +29,7 @@ console.log(ab);
 // to access elements
 let veges = ['Carrot', 'Beetroot' , 'Potato'];
 console.log(veges[1]);
+
+// we can also able to add function inside the array
+let all = ['hello', 'hi', 10,20,function add(a,b){ return a+b},'bat','ball'];
+console.log(all[4] (1,3));
